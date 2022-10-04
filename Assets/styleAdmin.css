@@ -1,0 +1,47 @@
+*{margin: 0px auto;}
+html,body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+    position: relative;
+}
+.__header{
+    height: 100%;
+}
+.container-fluid{
+    background: #ebebeb;
+}
+.__material-content{
+    margin-top: 59px;
+    position: fixed;
+    height: 100px;
+    max-height: 100%;
+}
+.__material-nav{
+    top: 0px;
+    position: fixed;
+    height: 50px
+}
+.navbar-brand{
+    padding-left: 40px;
+}
+.nav-item{
+    right: 75px;
+    top: 10px;
+    position: absolute;
+}
+.__footer{
+    height: 30px;
+    line-height: 50px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    bottom: 0px;
+}
+.__footer-desc{
+    font-size: 16px;
+    margin: 0px;
+}
