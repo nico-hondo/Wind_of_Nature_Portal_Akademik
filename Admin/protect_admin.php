@@ -1,6 +1,6 @@
 <?php
-if ($nim) {
+if ($id_psi) {
     $page = isset($_GET['page']) ? $_GET['page'] : false;
 } else {
-    header("location: " . BASE_URL . "index.php");
+    header("location: " . BASE_URL . "admin.php");
 }

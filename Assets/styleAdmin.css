@@ -1,27 +1,70 @@
 *{margin: 0px auto;}
+/* Color #e5e5e5 */
 html,body{
     height: 100%;
 }
 .container-fluid{
     min-height: 100%;
     position: relative;
+    background: #ebebeb;
 }
 .__header{
     height: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    position: fixed;
 }
-.container-fluid{
-    background: #ebebeb;
+.__header-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.__header-menu{
+    padding-top: 10vh;
+}
+
+.__admin-logo{
+    display: block;
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+}
+.coba{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.coba:hover{
+    text-decoration: none;
+    color: #000;
+    font-family: 900;
+}
+.__material{
+    padding: 0px;
 }
 .__material-content{
-    margin-top: 59px;
-    position: fixed;
-    height: 100px;
-    max-height: 100%;
+    position: absolute;
+    left: 200px;
+    padding: 0px;
+    height: auto;
+    /* text-align: center!important; */
+}
+.__material-section{
+    position: absolute;
+    top: 80px;
 }
 .__material-nav{
-    top: 0px;
     position: fixed;
-    height: 50px
+    left: 342px;
+    height: 58px;
+    z-index: 10;
+    border-bottom: 0.5px solid rgb(226, 226, 226);
+    background: #ebebeb;
+    backdrop-filter: blur(3px);
 }
 .navbar-brand{
     padding-left: 40px;
@@ -31,6 +74,25 @@ html,body{
     top: 10px;
     position: absolute;
 }
+@media  screen and(min-height: 768px){
+    .__content{
+        min-height: calc(100vh - 100px);
+    }
+}
+
+/* Content */
+.section-header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-title h6{
+    text-align: center;
+}
+.labelinput input{
+    width: 110;
+}
+
 .__footer{
     height: 30px;
     line-height: 50px;

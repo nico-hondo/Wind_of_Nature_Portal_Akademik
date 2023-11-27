@@ -1,3 +1,3 @@
 <?php
 
-    define("BASE_URL", "http://localhost/testcode/");
+define("BASE_URL", "http://localhost/wika/");

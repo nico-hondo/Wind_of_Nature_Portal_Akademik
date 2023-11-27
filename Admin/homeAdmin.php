@@ -1,5 +1,5 @@
 <?php
-include_once("auth/protect_user.php");
+include_once("protect_admin.php");
 ?>
 
 
